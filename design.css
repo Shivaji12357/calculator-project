@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background:lightslategray;
+    padding: 20px;
+    border-radius: 20px;
+}
+.calculator form input{
+    margin: 0;
+    outline: 0;
+    padding: 20px 20px;
+    background: lightcyan;
+    margin:10px 5px ;
+
+}
+.display{
+    text-align: right;
+    margin: none;
+    border: none;
+    outline: 0;
+    border: none;
+    width: 80%;
+    overflow: hidden;
+}
+.id{
+    color:red;
+}
